@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=terror-akshat&label=Profile%20views&color=0e75b6&style=flat" alt="terror-akshat" /> </p>
 
-- 🔭 I’m currently working on **Journey-Junction**
+- 🔭 I’m currently working on **SentimentPlus**
 
 - 🌱 I’m currently learning **React.js**
 
