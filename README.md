@@ -5,11 +5,10 @@
 
 - 🔭 I’m currently working on **SentimentPlus**
 
-- 🌱 I’m currently learning **React.js**
+- 🌱 I’m currently learning **Next.js**
 
-- 🤝 I’m looking for help with **Chat-app**
 
-- 📫 How to reach me **akshatagarwal123klj@gmail.com**
+- 📫 How to reach me **2k22.csai.32024@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
