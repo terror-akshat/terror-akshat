@@ -3,9 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=terror-akshat&label=Profile%20views&color=0e75b6&style=flat" alt="terror-akshat" /> </p>
 
-- 🔭 I’m currently working on **SentimentPlus**
+- 🔭 I’m currently working on **Real-world-Project**
 
-- 🌱 I’m currently learning **Next.js**
+- 🌱 I’m currently learning **Machine-learning**
 
 
 - 📫 How to reach me **2k22.csai.32024@gmail.com**
