@@ -1,17 +1,18 @@
 <h1 align="center">Hi 👋, I'm Akshat Agarwal</h1>
-<h3 align="center">🚀 A Passionate Web Developer & AI Enthusiast from India</h3>
+<h3 align="center">🚀 A Passionate Full-Stack Developer & AI Enthusiast from India</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=terror-akshat&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
-<img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+---
 
-- 🔭 I’m currently working on **Real-world Projects**
-- 🌱 I’m currently learning **Machine Learning & AI**
-- 💬 Ask me about **Full-Stack Development & AI-based Web Applications**
-- 📫 How to reach me **akshat.agarwal9292@gmail.com**
-- ⚡ Fun fact **I love solving DSA problems and building innovative projects!**
+## 🔥 About Me  
+- 🔭 I’m currently working on **Real-world Projects**  
+- 🌱 I’m currently learning **Machine Learning & AI**  
+- 💬 Ask me about **Full-Stack Development & AI-based Web Applications**  
+- 📫 How to reach me: **akshat.agarwal9292@gmail.com**  
+- ⚡ Fun fact: **I love solving DSA problems and building innovative projects!**  
 
 ---
 
@@ -38,35 +39,30 @@
 
 ## 🛠️ Technologies & Tools  
 
-<p align="left">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" height="40"/>
-  </a>
-  <a href="https://sass-lang.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SASS" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  </a>
-  <a href="https://reactjs.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/>
-  </a>
-  <a href="https://nodejs.org" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40"/>
-  </a>
-  <a href="https://expressjs.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" width="40" height="40"/>
-  </a>
-  <a href="https://www.mongodb.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
-  </a>
-</p>
+### 💻 Frontend  
+| HTML | CSS | JavaScript | React | Redux | Next.js | Tailwind CSS | Bootstrap |  
+|------|-----|-----------|--------|--------|--------|-------------|-----------|  
+| ✅   | ✅  | ✅        | ✅     | ✅     | ✅     | ✅         | ✅        |  
+
+### ⚙️ Backend  
+| Node.js | Express.js | REST APIs |  
+|---------|-----------|--------|-------|--------|---------|--------|  
+| ✅      | ✅        | ✅     | ✅    | ✅     | ✅      | ✅      |  
+
+### 🛢️ Database & Cloud  
+| MongoDB | MySQL  | AWS | Docker |  
+|---------|-----------|------|---------|-----|--------|  
+| ✅      | ✅        | ✅   | ✅      | ✅  | ✅      |  
+
+### 🤖 Machine Learning & AI  
+| Python  | PyTorch | NLP  | Hugging Face | Scikit-learn |  
+|--------|-----------|---------|----|--------|-------------|--------------|  
+| ✅     | ✅        | ✅      | ✅  | ✅      | ✅         | ✅           |  
+
+### 🛠️ DevOps & Tools  
+| Git | GitHub | GitLab | CI/CD | Docker | VS Code |  
+|-----|--------|--------|------|--------|------------|---------|  
+| ✅   | ✅     | ✅     | ✅   | ✅     | ✅         | ✅       |  
 
 ---
 
@@ -89,4 +85,4 @@
 
 ---
 
-✨ _Let's connect and collaborate! 🚀_  
+✨ _Let's connect and collaborate! 🚀_
