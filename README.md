@@ -1,88 +1,66 @@
-<h1 align="center">Hi 👋, I'm Akshat Agarwal</h1>
-<h3 align="center">🚀 A Passionate Full-Stack Developer & AI Enthusiast from India</h3>
+<h1 align="center">Hi 👋, I'm Akshat Agarwal</h1> <h3 align="center">🚀 Full-Stack Developer | AI & Machine Learning Enthusiast | India 🇮🇳</h3> <p align="center"> <img src="https://komarev.com/ghpvc/?username=terror-akshat&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" /> </p>
+🔥 About Me
+🎯 Full-Stack Developer passionate about solving real-world problems through code
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=terror-akshat&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+🤖 Enthusiastic about Machine Learning & Artificial Intelligence
 
----
+🚀 Currently working on real-world, impactful projects
 
-## 🔥 About Me  
-- 🔭 I’m currently working on **Real-world Projects**  
-- 🌱 I’m currently learning **Machine Learning & AI**  
-- 💬 Ask me about **Full-Stack Development & AI-based Web Applications**  
-- 📫 How to reach me: **akshat.agarwal9292@gmail.com**  
-- ⚡ Fun fact: **I love solving DSA problems and building innovative projects!**  
+💬 Ask me about Full-Stack Development and AI-powered Web Applications
 
----
+📫 Reach me at: akshat.agarwal9292@gmail.com
 
-## 🌐 Connect with Me  
-<p align="left">
-  <a href="https://linkedin.com/in/akshat-agarwal-55946a27a" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a>
-  <a href="https://fb.com/akshat.agarwal" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40" />
-  </a>
-  <a href="https://instagram.com/akshatagarwal98" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" />
-  </a>
-  <a href="https://www.hackerrank.com/csai__1520018" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" />
-  </a>
-  <a href="https://leetcode.com/u/Akshat_CSAI/" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" />
-  </a>
-</p>
+⚡ Fun fact: I love solving DSA problems & building smart solutions!
 
----
+🌐 Connect with Me
+<p align="left"> <a href="https://linkedin.com/in/akshat-agarwal-55946a27a" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" /></a> <a href="https://fb.com/akshat.agarwal" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" height="30" width="40" /></a> <a href="https://instagram.com/akshatagarwal98" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" /></a> <a href="https://www.hackerrank.com/csai__1520018" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" height="30" width="40" /></a> <a href="https://leetcode.com/u/Akshat_CSAI/" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40" /></a> </p>
+🛠️ Technical Skill Set
+💻 Frontend Development
+HTML, CSS, JavaScript
 
-## 🛠️ Technologies & Tools  
+React.js, Redux
 
-### 💻 Frontend  
-| HTML | CSS | JavaScript | React | Redux | Next.js | Tailwind CSS | Bootstrap |  
-|------|-----|-----------|--------|--------|--------|-------------|-----------|  
-| ✅   | ✅  | ✅        | ✅     | ✅     | ✅     | ✅         | ✅        |  
+Next.js, Tailwind CSS, Bootstrap
 
-### ⚙️ Backend  
-| Node.js | Express.js | REST APIs |  
-|---------|-----------|--------|-------|--------|---------|--------|  
-| ✅      | ✅        | ✅     | ✅    | ✅     | ✅      | ✅      |  
+⚙️ Backend Development
+Node.js, Express.js
 
-### 🛢️ Database & Cloud  
-| MongoDB | MySQL  | AWS | Docker |  
-|---------|-----------|------|---------|-----|--------|  
-| ✅      | ✅        | ✅   | ✅      | ✅  | ✅      |  
+RESTful APIs
 
-### 🤖 Machine Learning & AI  
-| Python  | PyTorch | NLP  | Hugging Face | Scikit-learn |  
-|--------|-----------|---------|----|--------|-------------|--------------|  
-| ✅     | ✅        | ✅      | ✅  | ✅      | ✅         | ✅           |  
+Authentication & Authorization (JWT, OAuth)
 
-### 🛠️ DevOps & Tools  
-| Git | GitHub | GitLab | CI/CD | Docker | VS Code |  
-|-----|--------|--------|------|--------|------------|---------|  
-| ✅   | ✅     | ✅     | ✅   | ✅     | ✅         | ✅       |  
+🗄️ Databases & Cloud
+MongoDB, MySQL
 
----
+AWS (EC2, S3, Lambda)
 
-## 📊 GitHub Stats  
-<p align="center">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=terror-akshat&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-  <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=terror-akshat&theme=dark" alt="GitHub Streak" />
-</p>  
+Firebase (Basic Auth & Hosting)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=terror-akshat&show_icons=true&theme=dark" alt="GitHub Stats" />
-</p>
+🤖 Machine Learning & AI
+Python, NumPy, Pandas
 
----
+PyTorch, Scikit-learn
 
-## 🚀 Fun Facts  
-💡 Love building AI-powered web applications & solving **LeetCode** problems!  
-⚡ Always exploring new **tech stacks** & **open-source contributions**.  
-🎯 **Goal:** Become an AI-driven Full-Stack Developer.  
+Natural Language Processing (NLP)
 
----
+Hugging Face Transformers
 
-✨ _Let's connect and collaborate! 🚀_
+🐳 DevOps & Tools
+Git, GitHub, GitLab
+
+Docker & Docker Compose
+
+CI/CD Pipelines
+
+VS Code, Postman
+
+📊 GitHub Stats
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=terror-akshat&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" /> </p> <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=terror-akshat&theme=tokyonight" alt="GitHub Streak" /> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=terror-akshat&show_icons=true&theme=tokyonight" alt="GitHub Stats" /> </p>
+✨ Fun Facts & Goals
+💡 Passionate about building AI-powered applications
+
+🔍 Always exploring new technologies and contributing to open-source
+
+🎯 Goal for 2025: Become a well-rounded, AI-driven Full-Stack Developer
+
+<p align="center"><b>Let’s connect and create something amazing together! 🚀</b></p>
