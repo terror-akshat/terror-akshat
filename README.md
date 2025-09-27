@@ -7,18 +7,15 @@
 
 ---
 
-## 🧑‍💻 About Me  
-
-- 🎓 **B.Tech CSE (AI)** | CGPA: 8.2 | @ PSIT Kanpur  
+## 🧑‍💻 About Me  '
+- 🎓 **B.Tech CSE (AI)** | CGPA: 8.2 | @ PSIT Kanpur   
 - 💼 Currently building with **Next.js, Node.js, MongoDB**  
 - 🌱 Exploring **Docker, AWS, CI/CD pipelines**  
 - 🤝 Open to **collaborations on Open Source Projects**  
 - 💬 Ask me about **MERN stack, DevOps, DSA, AI/NLP**  
 - 🧠 Solved **500+ DSA problems** on [LeetCode](https://leetcode.com/u/Akshat_CSAI/)  
 - 📫 Reach me at: **akshat.agarwal9292@gmail.com**  
-
 ---
-
 ## 🔧 Tech Stack & Tools  
 
 ### 💻 Programming  
