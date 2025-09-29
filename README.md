@@ -8,7 +8,7 @@
 ---
 
 ## 🧑‍💻 About Me  '
-- 🎓 **B.Tech CSE (AI)** | CGPA: 8.2 | @ PSIT Kanpur   
+- 🎓 **B.Tech CSE (AI)** | CGPA: 8.32 | @ PSIT Kanpur   
 - 💼 Currently building with **Next.js, Node.js, MongoDB**  
 - 🌱 Exploring **Docker, AWS, CI/CD pipelines**  
 - 🤝 Open to **collaborations on Open Source Projects**  
