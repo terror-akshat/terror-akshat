@@ -30,7 +30,7 @@
 
 ### 🛠 Backend & DevOps  
 <p align="center">
-<img src="https://skillicons.dev/icons?i=docker,git,github,postman,redis,nginx,kubernetes" />
+<img src="https://skillicons.dev/icons?i=docker,git,github,postman,redis,nginx,kubernetes,nginx,kafka" />
 </p>
 
 ### 🗄 Databases  
