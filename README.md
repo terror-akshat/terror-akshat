@@ -1,42 +1,89 @@
-<h1 align="center">Hey there 👋, I'm Akshat Agarwal</h1>
-<h3 align="center">🚀 Full Stack Developer | AI-ML Explorer | DevOps Enthusiast | India 🇮🇳</h3>
+<h1 align="center">
+  👨‍💻 Hey there, I'm <span style="color:#0DCEFF;">Akshat Agarwal</span>
+</h1>
+
+<h3 align="center">
+  🚀 Full Stack Developer • 🤖 AI/ML Explorer • ⚙️ DevOps Enthusiast • 🇮🇳 India
+</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0DCEFF&center=true&vCenter=true&width=600&lines=Full+Stack+Web+Developer+💻;AI%2FML+Experimenter+🤖;DevOps+Learner+⚙;Always+Learning+New+Things+🌍" alt="Typing SVG" />
+  <code>Building scalable systems</code> • 
+  <code>Writing clean APIs</code> • 
+  <code>Exploring AI</code> • 
+  <code>Automating everything</code>
 </p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=900&color=0DCEFF&center=true&vCenter=true&width=750&lines=Full+Stack+Web+Developer+💻;Backend+Engineering+%7C+APIs+%7C+Databases+🧠;AI+%26+ML+Explorer+🤖;DevOps+%7C+Docker+%7C+Linux+⚙️;Always+Learning%2C+Always+Building+🚀" />
+</p>
+
 
 ---
 
-## 🧑‍💻 About Me  '
-- 🎓 **B.Tech CSE (AI)** | CGPA: 8.32 | @ PSIT Kanpur   
-- 💼 Currently building with **Next.js, Node.js, MongoDB**  
-- 🌱 Exploring **Docker, AWS, CI/CD pipelines**  
-- 🤝 Open to **collaborations on Open Source Projects**  
-- 💬 Ask me about **MERN stack, DevOps, DSA, AI/NLP**  
-- 🧠 Solved **500+ DSA problems** on [LeetCode](https://leetcode.com/u/Akshat_CSAI/)  
-- 📫 Reach me at: **akshat.agarwal9292@gmail.com**  
+## 🧑‍💻 About Me
+
+- 🎓 **B.Tech in Computer Science (AI)** | CGPA **8.32** | PSIT Kanpur  
+- 🛠 Engineering **full-stack systems** using **Next.js, Node.js, MongoDB**  
+- ⚙️ Actively working with **Docker, AWS, CI/CD pipelines** for scalable deployments  
+- 🤖 Exploring **AI/ML & NLP** with a focus on real-world applications  
+- 🧩 Strong foundation in **DSA, System Design & Backend Architecture**  
+- 🧠 Solved **500+ DSA problems** on **LeetCode** → [Profile](https://leetcode.com/u/Akshat_CSAI/)  
+- 🤝 Open to **open-source collaboration & impactful engineering projects**  
+- 💬 Ask me about **MERN, DevOps, APIs, Databases, AI/NLP**  
+- 📫 **Reach me:** `akshat.agarwal9292@gmail.com`
+
 ---
-## 🔧 Tech Stack & Tools  
 
-### 💻 Programming  
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,java,javascript" />
-</p>
+<h1 align="center">🧠 Skill Set </h1>
+<table align="center">
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=python"/><br/>Python</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=java"/><br/>Java</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=javascript"/><br/>JavaScript</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=react"/><br/>React</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nextjs"/><br/>Next.js</td>
+  </tr>
 
-### 🌐 Frameworks & Libraries  
-<p align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,redux,express,nodejs,tailwind,bootstrap" />
-</p>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nodejs"/><br/>Node.js</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=express"/><br/>Express</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=tailwind"/><br/>Tailwind</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=bootstrap"/><br/>Bootstrap</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=docker"/><br/>Docker</td>
+  </tr>
 
-### 🛠 Backend & DevOps  
-<p align="center">
-<img src="https://skillicons.dev/icons?i=docker,git,github,postman,redis,nginx,kubernetes,nginx,kafka" />
-</p>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=kubernetes"/><br/>Kubernetes</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nginx"/><br/>Nginx</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=git"/><br/>Git</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=github"/><br/>GitHub</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=npm"/><br/>NPM</td>
+  </tr>
 
-### 🗄 Databases  
-<p align="center">
-<img src="https://skillicons.dev/icons?i=mongodb,mysql" />
-</p>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=linux"/><br/>Linux</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=vscode"/><br/>VS Code</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=postman"/><br/>Postman</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=auth0"/><br/>JWT Auth</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=redis"/><br/>Redis</td>
+  </tr>
+
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=kafka"/><br/>Kafka</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=netlify"/><br/>Netlify</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=vercel"/><br/>Vercel</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=cloud"/><br/>Render</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=postman"/><br/>REST APIs</td>
+  </tr>
+
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=mongodb"/><br/>MongoDB</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=mysql"/><br/>MySQL</td>
+    <td></td><td></td><td></td>
+  </tr>
+</table>
+
+
 
 ---
 
