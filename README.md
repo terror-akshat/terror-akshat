@@ -1,4 +1,4 @@
-<h1 align="center">
+<<h1 align="center">
   👨‍💻 Hey there, I'm <span style="color:#0DCEFF;">Akshat Agarwal</span>
 </h1>
 
@@ -6,9 +6,8 @@
   🚀 Full Stack Developer • 🤖 AI/ML Explorer • ⚙️ DevOps Enthusiast • 🇮🇳 India
 </h3>
 
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0DCEFF&height=90&section=header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0DCEFF&height=120&section=header"/>
 </p>
 
 <p align="center">
