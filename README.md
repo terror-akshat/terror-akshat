@@ -6,6 +6,11 @@
   🚀 Full Stack Developer • 🤖 AI/ML Explorer • ⚙️ DevOps Enthusiast • 🇮🇳 India
 </h3>
 
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0DCEFF&height=90&section=header"/>
+</p>
+
 <p align="center">
   <code>Building scalable systems</code> • 
   <code>Writing clean APIs</code> • 
@@ -16,7 +21,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=900&color=0DCEFF&center=true&vCenter=true&width=750&lines=Full+Stack+Web+Developer+💻;Backend+Engineering+%7C+APIs+%7C+Databases+🧠;AI+%26+ML+Explorer+🤖;DevOps+%7C+Docker+%7C+Linux+⚙️;Always+Learning%2C+Always+Building+🚀" />
 </p>
-
 
 ---
 
@@ -35,6 +39,9 @@
 ---
 
 <h1 align="center">🧠 Skill Set </h1>
+<p align="center">
+  <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="140"/>
+</p>
 <table align="center">
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=python"/><br/>Python</td>
@@ -90,6 +97,9 @@
 ---
 
 ## 🚀 Featured Projects  
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0DCEFF&height=90&section=header"/>
+</p>
 
 | Name | Description | Tech Stack |
 |------|-------------|------------|
