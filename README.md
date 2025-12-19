@@ -40,8 +40,9 @@
     <td align="center"><img src="https://skillicons.dev/icons?i=python"/><br/>Python</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=java"/><br/>Java</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=javascript"/><br/>JavaScript</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=typescript"/><br/>TypeScript</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=react"/><br/>React</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=nextjs"/><br/>Next.js</td>
+    
   </tr>
 
   <tr>
@@ -77,9 +78,11 @@
   </tr>
 
   <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nextjs"/><br/>Next.js</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=mongodb"/><br/>MongoDB</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=mysql"/><br/>MySQL</td>
-    <td></td><td></td><td></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=graphql"/><br/>graphQL</td>
+    <td></td><td></td></td>
   </tr>
 </table>
 
