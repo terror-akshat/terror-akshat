@@ -82,7 +82,7 @@
     <td align="center"><img src="https://skillicons.dev/icons?i=mongodb"/><br/>MongoDB</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=mysql"/><br/>MySQL</td>
     <td align="center"><img src="https://skillicons.dev/icons?i=graphql"/><br/>graphQL</td>
-    <td></td><td></td></td>
+    <td></td><td></td>
   </tr>
 </table>
 
