@@ -25,12 +25,12 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 **B.Tech in Computer Science (AI)** | CGPA **8.32** | PSIT Kanpur  
+- 🎓 **B.Tech in Computer Science (AI)** | CGPA **8.44** | PSIT Kanpur  
 - 🛠 Engineering **full-stack systems** using **Next.js, Node.js, MongoDB**  
 - ⚙️ Actively working with **Docker, AWS, CI/CD pipelines** for scalable deployments  
 - 🤖 Exploring **AI/ML & NLP** with a focus on real-world applications  
 - 🧩 Strong foundation in **DSA, System Design & Backend Architecture**  
-- 🧠 Solved **500+ DSA problems** on **LeetCode** → [Profile](https://leetcode.com/u/Akshat_CSAI/)  
+- 🧠 Solved **700+ DSA problems** on **LeetCode** → [Profile](https://leetcode.com/u/Akshat_CSAI/)  
 - 🤝 Open to **open-source collaboration & impactful engineering projects**  
 - 💬 Ask me about **MERN, DevOps, APIs, Databases, AI/NLP**  
 - 📫 **Reach me:** `akshat.agarwal9292@gmail.com`
