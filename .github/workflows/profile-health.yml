@@ -100,8 +100,10 @@ jobs:
             exit 0
           fi
           for f in "${files[@]}"; do
-            xmllint --noout "$f"
-            echo "xml ok: $f"
+            if ! python3 -c 'import sys,xml.etree.ElementTree as ET; ET.parse(sys.argv[1]); print("xml ok:", sys.argv[1])' "$f"; then
+              echo "::error file=$f::malformed XML"
+              exit 1
+            fi
           done
 
       - name: Animation nodes are present
@@ -114,9 +116,9 @@ jobs:
             exit 0
           fi
           for f in "${files[@]}"; do
-            count=$(grep -o '<animate' "$f" | wc -l)
-            if [ "$count" -lt 1 ]; then
-              echo "::error file=$f::expected at least one <animate> node, found $count"
+            count=$(grep -o '<animate' "$f" | wc -l | tr -d ' ' || true)
+            if [ "${count:-0}" -lt 1 ]; then
+              echo "::error file=$f::expected at least one <animate> node, found ${count:-0}"
               exit 1
             fi
             echo "animated nodes in $f: $count"
