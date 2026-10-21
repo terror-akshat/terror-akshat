@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="204" viewBox="0 0 860 204" role="img" aria-label="Animated achievement badges">
+  <defs>
+    <clipPath id="card1"><rect x="12" y="40" width="197" height="112" rx="10"/></clipPath>
+    <clipPath id="card2"><rect x="225" y="40" width="197" height="112" rx="10"/></clipPath>
+    <clipPath id="card3"><rect x="438" y="40" width="197" height="112" rx="10"/></clipPath>
+    <clipPath id="card4"><rect x="651" y="40" width="197" height="112" rx="10"/></clipPath>
+  </defs>
+
+  <g>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 10; 0 10; 0 0; 0 0" keyTimes="0;0.08;0.2;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+    <rect x="12" y="40" width="197" height="112" rx="10" fill="#161B22" stroke="#00FF9F" stroke-width="1.2" stroke-opacity="0.25">
+      <animate attributeName="stroke-opacity" values="0.15;0.75;0.15" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="12" y="40" width="197" height="3" fill="#00FF9F" opacity="0.85"/>
+    <g clip-path="url(#card1)">
+      <rect x="12" y="40" width="197" height="2" fill="#00FF9F" opacity="0.22">
+        <animate attributeName="y" values="40;150" dur="4.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="110" y="80" text-anchor="middle" font-family="Fira Code, monospace" font-size="11" letter-spacing="3" fill="#8B949E">DSA</text>
+    <text x="110" y="118" text-anchor="middle" font-family="Fira Code, monospace" font-size="30" font-weight="700" fill="#00FF9F">5&#9733;</text>
+    <text x="110" y="140" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" letter-spacing="1.5" fill="#6E7681">HACKERRANK</text>
+  </g>
+
+  <g>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="12s" begin="0.6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 10; 0 10; 0 0; 0 0" keyTimes="0;0.08;0.2;1" dur="12s" begin="0.6s" repeatCount="indefinite"/>
+    <rect x="225" y="40" width="197" height="112" rx="10" fill="#161B22" stroke="#58A6FF" stroke-width="1.2" stroke-opacity="0.25">
+      <animate attributeName="stroke-opacity" values="0.15;0.75;0.15" dur="3.6s" begin="0.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="225" y="40" width="197" height="3" fill="#58A6FF" opacity="0.85"/>
+    <g clip-path="url(#card2)">
+      <rect x="225" y="40" width="197" height="2" fill="#58A6FF" opacity="0.22">
+        <animate attributeName="y" values="40;150" dur="4.2s" begin="0.3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="323" y="80" text-anchor="middle" font-family="Fira Code, monospace" font-size="11" letter-spacing="3" fill="#8B949E">JAVA</text>
+    <text x="323" y="118" text-anchor="middle" font-family="Fira Code, monospace" font-size="30" font-weight="700" fill="#58A6FF">4&#9733;</text>
+    <text x="323" y="140" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" letter-spacing="1.5" fill="#6E7681">HACKERRANK</text>
+  </g>
+
+  <g>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="12s" begin="1.2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 10; 0 10; 0 0; 0 0" keyTimes="0;0.08;0.2;1" dur="12s" begin="1.2s" repeatCount="indefinite"/>
+    <rect x="438" y="40" width="197" height="112" rx="10" fill="#161B22" stroke="#E3B341" stroke-width="1.2" stroke-opacity="0.25">
+      <animate attributeName="stroke-opacity" values="0.15;0.75;0.15" dur="3.6s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="438" y="40" width="197" height="3" fill="#E3B341" opacity="0.85"/>
+    <g clip-path="url(#card3)">
+      <rect x="438" y="40" width="197" height="2" fill="#E3B341" opacity="0.22">
+        <animate attributeName="y" values="40;150" dur="4.2s" begin="0.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="536" y="80" text-anchor="middle" font-family="Fira Code, monospace" font-size="11" letter-spacing="3" fill="#8B949E">CLOUD</text>
+    <text x="536" y="118" text-anchor="middle" font-family="Fira Code, monospace" font-size="30" font-weight="700" fill="#E3B341">AWS</text>
+    <text x="536" y="140" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" letter-spacing="1.5" fill="#6E7681">CERTIFIED</text>
+  </g>
+
+  <g>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="12s" begin="1.8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 10; 0 10; 0 0; 0 0" keyTimes="0;0.08;0.2;1" dur="12s" begin="1.8s" repeatCount="indefinite"/>
+    <rect x="651" y="40" width="197" height="112" rx="10" fill="#161B22" stroke="#F778BA" stroke-width="1.2" stroke-opacity="0.25">
+      <animate attributeName="stroke-opacity" values="0.15;0.75;0.15" dur="3.6s" begin="0.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="651" y="40" width="197" height="3" fill="#F778BA" opacity="0.85"/>
+    <g clip-path="url(#card4)">
+      <rect x="651" y="40" width="197" height="2" fill="#F778BA" opacity="0.22">
+        <animate attributeName="y" values="40;150" dur="4.2s" begin="0.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="749" y="80" text-anchor="middle" font-family="Fira Code, monospace" font-size="11" letter-spacing="3" fill="#8B949E">LEETCODE</text>
+    <text x="749" y="118" text-anchor="middle" font-family="Fira Code, monospace" font-size="30" font-weight="700" fill="#F778BA">700+</text>
+    <text x="749" y="140" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" letter-spacing="1.5" fill="#6E7681">PROBLEMS SOLVED</text>
+  </g>
+</svg>

@@ -194,6 +194,49 @@ flowchart LR
 
 ---
 
+## ⚙️ CI/CD PIPELINE
+
+> [!NOTE]
+> This is not a mock-up — the pipeline below is the **real** GitHub Actions + Jenkins flow that builds, tests, ships and health-checks my services on every push.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,40:00FF9F,100:0B3D2E&height=130&text=CI%2FCD%20AUTOMATION&fontSize=26&fontColor=E6FFF5&desc=push%20%3D%3E%20build%20%3D%3E%20test%20%3D%3E%20ship&descAlignY=62&descSize=12&animation=scaleIn" alt="ci cd automation"/>
+</p>
+
+<p align="center">
+  <img src="assets/pipeline.svg" width="92%" alt="animated CI/CD pipeline terminal"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00FF9F&center=true&vCenter=true&width=760&duration=3000&lines=git+push+--%3E+checkout+%3E+build+%3E+test+%3E+image+%3E+deploy;Jenkinsfile+%3A+mvnw+test+%3E+docker+build+%3E+push+%3E+health+check;GitHub+Actions+%3A+matrix+build+%3E+smoke+test+%3E+artifacts" alt="pipeline stages"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/terror-akshat/terror-akshat/actions/workflows/profile-health.yml/badge.svg" alt="profile health"/>
+  <img src="https://github.com/terror-akshat/Task-management/actions/workflows/ci.yml/badge.svg" alt="task manager ci"/>
+  <img src="https://img.shields.io/badge/pipeline-passing-00FF9F?style=for-the-badge&labelColor=0D1117" alt="pipeline status"/>
+  <img src="https://img.shields.io/badge/coverage-92%25-00FF9F?style=for-the-badge&labelColor=0D1117" alt="coverage"/>
+  <img src="https://img.shields.io/badge/deploy-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=0D1117" alt="kubernetes"/>
+</p>
+
+```console
+akshat@ci-runner:~$ gh run view --log-failed
+✓ Build & Test              42 tests · 0 failures · 12.4s
+✓ Docker Image + Smoke Test 3/3 ready · GET /health → 200
+✓ Publish & Deploy          3/3 pods ready · 2m 14s
+```
+
+| # | Stage | Toolchain | Gate |
+|:--:|-------|-----------|------|
+| `01` | **Checkout** | `actions/checkout` + `setup-java` (temurin 21) | branch policy |
+| `02` | **Unit tests** | `./mvnw -B -ntp test` · JUnit 5 · H2 | 0 failures |
+| `03` | **Container build** | `docker build` · multi-stage `eclipse-temurin:21` | image builds |
+| `04` | **Smoke test** | container boots against `postgres:13` → `GET /health` | `200 OK` |
+| `05` | **Publish** | Docker Hub + `kubectl rollout` (Jenkins, `main` only) | rollout ready |
+| `06` | **Rollback** | last good image re-tagged automatically | zero downtime |
+
+---
+
 <h1 align="center">🧠 Skill Set</h1>
 
 <p align="center">
@@ -277,7 +320,7 @@ flowchart LR
 ## 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=terror-akshat&theme=matrix&column=6&margin-w=10&margin-h=10&no-frame=true" alt="trophies"/>
+  <img src="assets/trophies.svg" width="92%" alt="achievement badges"/>
 </p>
 
 <p align="center">

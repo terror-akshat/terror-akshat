@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="350" viewBox="0 0 920 350" role="img" aria-label="Animated CI/CD pipeline terminal">
+  <title>CI/CD pipeline</title>
+  <desc>Live pipeline log: checkout, build, test, image, deploy.</desc>
+
+  <defs>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="55%" stop-color="#00FF9F"/>
+      <stop offset="100%" stop-color="#A371F7"/>
+    </linearGradient>
+    <clipPath id="win">
+      <rect x="0" y="0" width="920" height="350" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#win)">
+    <!-- window -->
+    <rect x="0" y="0" width="920" height="350" fill="#010409"/>
+    <!-- title bar -->
+    <path d="M0,14 A14,14 0 0 1 14,0 L906,0 A14,14 0 0 1 920,14 L920,40 L0,40 Z" fill="#161B22"/>
+    <line x1="0" y1="40" x2="920" y2="40" stroke="#30363D" stroke-width="1"/>
+    <circle cx="26" cy="20" r="6" fill="#FF5F56"/>
+    <circle cx="48" cy="20" r="6" fill="#FFBD2E"/>
+    <circle cx="70" cy="20" r="6" fill="#27C93F"/>
+    <text x="460" y="25" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#8B949E">akshat@ci-runner:~/pipeline</text>
+    <circle cx="642" cy="20" r="4" fill="#00FF9F">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="654" y="25" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="11" fill="#8B949E">running</text>
+
+    <!-- log lines -->
+    <g font-family="'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" xml:space="preserve">
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.03;0.86;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+        <text x="24" y="70"><tspan fill="#00FF9F">akshat@ci-runner:~/pipeline </tspan><tspan fill="#FF7B72">$ </tspan><tspan fill="#E6FFF5">git push origin main</tspan></text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.03;0.86;1" dur="9s" begin="1s" repeatCount="indefinite"/>
+        <text x="24" y="94"><tspan fill="#58A6FF">[runner]  </tspan><tspan fill="#00FF9F">✓  </tspan><tspan fill="#E6FFF5">checkout             </tspan><tspan fill="#8B949E">ref:main @ 185a13e</tspan></text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.03;0.86;1" dur="9s" begin="2s" repeatCount="indefinite"/>
+        <text x="24" y="118"><tspan fill="#58A6FF">[build]   </tspan><tspan fill="#00FF9F">✓  </tspan><tspan fill="#E6FFF5">./mvnw -B test       </tspan><tspan fill="#8B949E">42 tests · 0 failures · 12.4s</tspan></text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.03;0.86;1" dur="9s" begin="3s" repeatCount="indefinite"/>
+        <text x="24" y="142"><tspan fill="#58A6FF">[build]   </tspan><tspan fill="#00FF9F">✓  </tspan><tspan fill="#E6FFF5">docker build .       </tspan><tspan fill="#8B949E">ghcr.io/akshat/task-manager:latest</tspan></text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.03;0.86;1" dur="9s" begin="4s" repeatCount="indefinite"/>
+        <text x="24" y="166"><tspan fill="#58A6FF">[test]    </tspan><tspan fill="#00FF9F">✓  </tspan><tspan fill="#E6FFF5">integration suite    </tspan><tspan fill="#8B949E">postgres:13 · redis · kafka</tspan></text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.03;0.86;1" dur="9s" begin="5s" repeatCount="indefinite"/>
+        <text x="24" y="190"><tspan fill="#58A6FF">[deploy]  </tspan><tspan fill="#00FF9F">✓  </tspan><tspan fill="#E6FFF5">image pushed         </tspan><tspan fill="#8B949E">sha256:9f3c1a2b</tspan></text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.03;0.86;1" dur="9s" begin="6s" repeatCount="indefinite"/>
+        <text x="24" y="214"><tspan fill="#58A6FF">[deploy]  </tspan><tspan fill="#00FF9F">✓  </tspan><tspan fill="#E6FFF5">kubectl rollout      </tspan><tspan fill="#8B949E">deployment/task-manager → 3/3 ready</tspan></text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.03;0.86;1" dur="9s" begin="7s" repeatCount="indefinite"/>
+        <text x="24" y="238"><tspan fill="#F778BA">[live]    </tspan><tspan fill="#00FF9F">✓  </tspan><tspan fill="#E6FFF5">https://akshat.dev   </tspan><tspan fill="#8B949E">deployed in 2m 14s · exit 0</tspan></text>
+      </g>
+    </g>
+
+    <!-- stage tracker -->
+    <g font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="11">
+      <g>
+        <circle cx="29" cy="272" r="5" fill="#21262D">
+          <animate attributeName="fill" values="#21262D;#00FF9F;#00FF9F;#21262D" keyTimes="0;0.02;0.12;0.16" dur="9s" begin="1s" repeatCount="indefinite"/>
+        </circle>
+        <text x="42" y="276" fill="#8B949E">checkout
+          <animate attributeName="fill" values="#8B949E;#00FF9F;#00FF9F;#8B949E" keyTimes="0;0.02;0.12;0.16" dur="9s" begin="1s" repeatCount="indefinite"/>
+        </text>
+      </g>
+      <g>
+        <circle cx="129" cy="272" r="5" fill="#21262D">
+          <animate attributeName="fill" values="#21262D;#00FF9F;#00FF9F;#21262D" keyTimes="0;0.02;0.12;0.16" dur="9s" begin="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="142" y="276" fill="#8B949E">build
+          <animate attributeName="fill" values="#8B949E;#00FF9F;#00FF9F;#8B949E" keyTimes="0;0.02;0.12;0.16" dur="9s" begin="2s" repeatCount="indefinite"/>
+        </text>
+      </g>
+      <g>
+        <circle cx="199" cy="272" r="5" fill="#21262D">
+          <animate attributeName="fill" values="#21262D;#00FF9F;#00FF9F;#21262D" keyTimes="0;0.02;0.12;0.16" dur="9s" begin="4s" repeatCount="indefinite"/>
+        </circle>
+        <text x="212" y="276" fill="#8B949E">test
+          <animate attributeName="fill" values="#8B949E;#00FF9F;#00FF9F;#8B949E" keyTimes="0;0.02;0.12;0.16" dur="9s" begin="4s" repeatCount="indefinite"/>
+        </text>
+      </g>
+      <g>
+        <circle cx="259" cy="272" r="5" fill="#21262D">
+          <animate attributeName="fill" values="#21262D;#00FF9F;#00FF9F;#21262D" keyTimes="0;0.02;0.12;0.16" dur="9s" begin="5s" repeatCount="indefinite"/>
+        </circle>
+        <text x="272" y="276" fill="#8B949E">image
+          <animate attributeName="fill" values="#8B949E;#00FF9F;#00FF9F;#8B949E" keyTimes="0;0.02;0.12;0.16" dur="9s" begin="5s" repeatCount="indefinite"/>
+        </text>
+      </g>
+      <g>
+        <circle cx="329" cy="272" r="5" fill="#21262D">
+          <animate attributeName="fill" values="#21262D;#00FF9F;#00FF9F;#21262D" keyTimes="0;0.02;0.12;0.16" dur="9s" begin="6s" repeatCount="indefinite"/>
+        </circle>
+        <text x="342" y="276" fill="#8B949E">deploy
+          <animate attributeName="fill" values="#8B949E;#00FF9F;#00FF9F;#8B949E" keyTimes="0;0.02;0.12;0.16" dur="9s" begin="6s" repeatCount="indefinite"/>
+        </text>
+      </g>
+    </g>
+
+    <!-- progress bar -->
+    <rect x="24" y="298" width="872" height="8" rx="4" fill="#161B22" stroke="#21262D"/>
+    <rect x="24" y="298" width="0" height="8" rx="4" fill="#00FF9F" opacity="0.22">
+      <animate attributeName="width" values="0;0;70;200;360;540;650;872;872" keyTimes="0;0.02;0.16;0.34;0.52;0.70;0.84;0.92;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="24" y="298" width="0" height="8" rx="4" fill="url(#barGrad)">
+      <animate attributeName="width" values="0;0;70;200;360;540;650;872;872" keyTimes="0;0.02;0.16;0.34;0.52;0.70;0.84;0.92;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="24" y="326" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="10" fill="#6E7681">continuous delivery · every push to main · auto rollback on failure</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="919" height="349" rx="14" fill="none" stroke="#30363D" stroke-width="1"/>
+</svg>

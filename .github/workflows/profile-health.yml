@@ -1,0 +1,173 @@
+name: Profile Health
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**'
+  schedule:
+    # weekly drift check - catches third-party badge services going dark
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-health-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  readme-lint:
+    name: README Structure
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: README exists and is not empty
+        run: |
+          set -euo pipefail
+          test -s README.md || { echo "::error::README.md is missing or empty"; exit 1; }
+          echo "README.md OK ($(wc -c < README.md) bytes)"
+
+      - name: Required sections present
+        run: |
+          set -euo pipefail
+          for section in 'whoami' 'About Me' 'How I Architect a System' 'CI/CD PIPELINE' 'Skill Set' 'Featured Projects' 'Achievements' 'Dynamic GitHub' 'Connect with Me'; do
+            if ! grep -qF "$section" README.md; then
+              echo "::error::missing required section: $section"
+              exit 1
+            fi
+            echo "found: $section"
+          done
+
+      - name: capsule-render payloads are well formed
+        run: |
+          set -euo pipefail
+          # capsule-render injects text= / desc= RAW into the SVG, so a literal
+          # '&' inside a value produces invalid XML and a silently broken
+          # image on GitHub. A raw '&' also splits the query string, so the
+          # only reliable detector is: every '&'-separated segment of the URL
+          # must still look like key=value.
+          bad=0
+          while IFS= read -r url; do
+            case "$url" in
+              *capsule-render.vercel.app*) ;;
+              *) continue ;;
+            esac
+            if printf '%s' "$url" | tr '&' '\n' | grep -qv '='; then
+              echo "::error file=README.md::capsule-render URL has a stray '&' - use %7C or %26: $url"
+              bad=1
+            fi
+            case "$url" in
+              *" "*)
+                echo "::error file=README.md::capsule-render URL contains a raw space - use %20: $url"
+                bad=1 ;;
+            esac
+            echo "ok: $url"
+          done < <(grep -oE 'https://[^"[:space:]<>]+' README.md | sed 's/&amp;/\&/g' | sort -u)
+          exit $bad
+
+      - name: Local relative assets exist
+        run: |
+          set -euo pipefail
+          bad=0
+          while IFS= read -r asset; do
+            if [ ! -f "$asset" ]; then
+              echo "::error file=README.md::referenced local asset is missing: $asset"
+              bad=1
+            else
+              echo "ok: $asset"
+            fi
+          done < <(grep -oE 'src="assets/[^"]+"' README.md | sed -e 's/^src="//' -e 's/"$//' | sort -u)
+          exit $bad
+
+  svg-lint:
+    name: Animated SVG Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Every local SVG is well-formed XML
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=(assets/*.svg)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "no local SVG assets to lint"
+            exit 0
+          fi
+          for f in "${files[@]}"; do
+            xmllint --noout "$f"
+            echo "xml ok: $f"
+          done
+
+      - name: Animation nodes are present
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=(assets/*.svg)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "::warning::no local SVG assets found"
+            exit 0
+          fi
+          for f in "${files[@]}"; do
+            count=$(grep -o '<animate' "$f" | wc -l)
+            if [ "$count" -lt 1 ]; then
+              echo "::error file=$f::expected at least one <animate> node, found $count"
+              exit 1
+            fi
+            echo "animated nodes in $f: $count"
+          done
+
+  asset-audit:
+    name: External Asset Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Collect remote image URLs
+        run: |
+          set -euo pipefail
+          {
+            grep -oE 'src="https://[^"]+"' README.md | sed -e 's/^src="//' -e 's/"$//'
+            grep -oE '!\[[^]]*\]\(https://[^)]+\)' README.md | sed -E 's/.*\((https[^)]*)\)/\1/'
+          } | sed 's/&amp;/\&/g' | sort -u > urls.txt
+          echo "remote images: $(wc -l < urls.txt)"
+          cat urls.txt
+
+      - name: Every remote image answers 200
+        run: |
+          set -uo pipefail
+          fail=0
+          while IFS= read -r url; do
+            [ -z "$url" ] && continue
+            code=""
+            for attempt in 1 2 3; do
+              code=$(curl -sS -o /dev/null -w '%{http_code}' -L --max-time 25 "$url" 2>/dev/null || echo "000")
+              [ "$code" = "200" ] && break
+              sleep 3
+            done
+            if [ "$code" = "200" ]; then
+              echo "200  $url"
+              continue
+            fi
+            # Public community instances rate-limit and occasionally reboot.
+            # Report them, but never let them turn the whole profile red.
+            case "$url" in
+              # A workflow badge 404s until that workflow has completed its
+              # first run - including this workflow's own badge. Self-reference
+              # is expected, not a defect.
+              *actions/workflows/*badge.svg*|*img.shields.io/github/actions*|*img.shields.io/github/deploy-status*)
+                echo "::notice::HTTP $code (workflow badge - resolves after first run) $url" ;;
+              *github-readme-stats.vercel.app*|*streak-stats.demolab.com*|*ghchart.rshah.org*|*leetcard.jacoblin.cool*|*komarev.com*|*github-profile-trophy*)
+                echo "::warning::HTTP $code (community instance) $url" ;;
+              *)
+                echo "::error::HTTP $code  $url"
+                fail=1 ;;
+            esac
+          done < urls.txt
+          exit $fail
