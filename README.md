@@ -226,15 +226,6 @@ akshat@ci-runner:~$ gh run view --log-failed
 ✓ Publish & Deploy          3/3 pods ready · 2m 14s
 ```
 
-| # | Stage | Toolchain | Gate |
-|:--:|-------|-----------|------|
-| `01` | **Checkout** | `actions/checkout` + `setup-java` (temurin 21) | branch policy |
-| `02` | **Unit tests** | `./mvnw -B -ntp test` · JUnit 5 · H2 | 0 failures |
-| `03` | **Container build** | `docker build` · multi-stage `eclipse-temurin:21` | image builds |
-| `04` | **Smoke test** | container boots against `postgres:13` → `GET /health` | `200 OK` |
-| `05` | **Publish** | Docker Hub + `kubectl rollout` (Jenkins, `main` only) | rollout ready |
-| `06` | **Rollback** | last good image re-tagged automatically | zero downtime |
-
 ---
 
 <h1 align="center">🧠 Skill Set</h1>
